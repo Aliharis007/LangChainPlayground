@@ -13,13 +13,12 @@ LangChainPlayground/
 ├── .gitignore             # Ignored files such as .env
 ├── .env                   # Environment variables (API keys, etc.)
 ├── README.md              # You're reading it :)
-│
 ├── GANs.pdf               # PDF file used for testing document querying
 ├── agent.py               # LangChain agent setup and tool integration
-├── chat\_memory.py         # Memory usage demonstration in LLM chats
-├── llm\_call.py            # Basic LLM prompt-response structure
-├── multiple\_prompts.py    # Using multiple prompt templates in LangChain
-├── pdf\_chat.py            # Chat with PDF via LangChain and embedding
+├── chat_memory.py         # Memory usage demonstration in LLM chats
+├── llm_call.py            # Basic LLM prompt-response structure
+├── multiple_prompts.py    # Using multiple prompt templates in LangChain
+├── pdf_chat.py            # Chat with PDF via LangChain and embedding
 ├── prompttemp.py          # PromptTemplate customization and chaining
 
 ```
