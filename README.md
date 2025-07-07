@@ -1,4 +1,4 @@
-# LangChainPlayground
+#✨LangChainPlayground
 
 This repository contains a collection of hands-on experiments and projects using **LangChain**, an open-source framework for developing applications powered by language models. The goal of this project is to explore various capabilities of LLMs such as prompt engineering, memory management, PDF document querying, and agent-based interactions.
 
