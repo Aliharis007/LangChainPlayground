@@ -57,7 +57,7 @@ This project serves as a mini playground to explore LangChain’s functionality 
 - Shows how LLM can retain context over multiple turns of conversation.
 
 ### 🔹 `pdf_chat.py`
-- Uses `PyPDFLoader` and `Chroma` VectorStore to allow users to chat with a document (`GANs.pdf` in this case).
+- Uses `PyPDFLoader` and `FAISS` VectorStore to allow users to chat with a document (`GANs.pdf` in this case).
 - Embeds text using a model (like OpenAI embeddings or HuggingFace).
 - Useful for building document Q&A systems.
 
@@ -73,11 +73,11 @@ This project serves as a mini playground to explore LangChain’s functionality 
 
 ## 🔐 Environment Variables
 
-All sensitive keys (e.g., OpenAI API keys) should be stored in the `.env` file. Example format:
+All sensitive keys (e.g., GROQ API keys) should be stored in the `.env` file. Example format:
 
 ```
 
-OPENAI\_API\_KEY=your\_openai\_api\_key\_here
+GROQ\_API\_KEY=your\_groqai\_api\_key\_here
 
 ````
 
@@ -99,12 +99,12 @@ pip install -r requirements.txt
 Commonly used packages include:
 
 * `langchain`
-* `openai`
-* `chromadb`
+* `GROQ`
+* `FAISS`
 * `python-dotenv`
 * `PyPDF2`
 * `tiktoken`
-* `faiss-cpu` or `chromadb` (for vector storage)
+* `faiss-cpu'(for vector storage)
 
 ---
 
